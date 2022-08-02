@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Form extends React.Component {
+class Form extends Component {
   render() {
     const {
       cardName,
