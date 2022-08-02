@@ -17,7 +17,11 @@ class Card extends Component {
     return (
       <section>
         <h1 data-testid="name-card">{ cardName }</h1>
-        <img data-testid="image-card" src={ cardImage } alt={ cardName } />
+        <img
+          data-testid="image-card"
+          src={ cardImage }
+          alt={ cardName }
+        />
         <p data-testid="description-card">{ cardDescription }</p>
         <p data-testid="attr1-card">{ cardAttr1 }</p>
         <p data-testid="attr2-card">{ cardAttr2 }</p>
