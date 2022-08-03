@@ -79,7 +79,6 @@ class App extends React.Component {
      cardRare,
      cardTrunfo,
      onInputChange } = this.state;
-
    const newState = {
      cardName,
      cardDescription,
@@ -104,6 +103,7 @@ class App extends React.Component {
        cardRare: 'normal',
        cardTrunfo: false,
        isSaveButtonDisabled: true,
+       hasTrunfo: cardTrunfo,
      }
    ));
    //  savedCard.push(cardName, cardDescription, cardAttr1, cardAttr2, cardAttr3,
